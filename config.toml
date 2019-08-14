@@ -2,6 +2,8 @@ baseURL = "http://isoft.cnu.ac.kr/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+enableRobotsTXT=true
+
 [deployment]
 order = [".jpg$", ".gif$"]
 
