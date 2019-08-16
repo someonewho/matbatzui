@@ -1,14 +1,21 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="google-site-verification" content="biLQhvWFmFt3v-LqKEsU5IajYVx1ZJXPl5HoTZ0znwc" />
-<title>matbatzui</title>
-</head>
-<body>
-<h1>Hello World</h1>
-<h2>This is matbatzui</h2>
-<div>Short Description of {{.Site.Data.User0123.Name}}: 
-	<p>{{ index .Site.Data.User0123 "Short Description" | markdownify }}</p>
-</div>
-</body>
-</html>
+
+{{ define "main" }}
+    <main aria-role="main">
+      <header class="homepage-header">
+        <h1>{{.Title}}</h1>
+        {{ with .Params.subtitle }}
+        <span class="subtitle">{{.}}</span>
+        {{ end }}
+      </header>
+      <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+      </div>
+      <div>
+        <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
+        {{ range first 10 .Pages }}
+            {{ .Render "summary"}}
+        {{ end }}
+      </div>
+    </main>
+{{ end }}
