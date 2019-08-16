@@ -1,8 +1,8 @@
 baseURL = "http://isoft.cnu.ac.kr/"
 languageCode = "en-us"
-title = "Intelligent Software laboratory"
+title = "ISoft lab"
 enableRobotsTXT=true
-theme = "ananke"
+theme = "hyde"
 
 
 [deployment]
