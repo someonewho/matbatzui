@@ -10,7 +10,7 @@ This is page for **CNU CSE ISOFT LAB**\
 
 **_Notice!_**
 
-We are recruiting!
+We are recruiting!\
 MS course (석사과정)\
 Ph.D course (박사과정)\
 MS + Ph.D integrated course (통합과정)\
