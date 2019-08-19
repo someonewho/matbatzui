@@ -3,6 +3,28 @@ languageCode = "en-us"
 title = "ISoft lab"
 enableRobotsTXT=true
 theme = "hyde"
+[params]
+	themeColor = "theme-base-0d"
+	DateFormat = "2 Jan 2006"
+    description = "A blog about content"
+    sidebarDescription = "This is my blog about content"
+    sidebarFreeText = "A optional paragraph of free text. Set to blank in config.toml to clear..."
+    piwikSiteID = ""
+    piwikURL = ""
+
+[[menu.main]]
+    name = "Hugo"
+    post = "<span class='glyphicon glyphicon-fire'></span>"
+    url = "http://gohugo.io"
+
+[[menu.main]]
+    name = "Bootstrap"
+    post = "<span class='glyphicon glyphicon-ok'></span>"
+    url = "http://getbootstrap.com"
+	
+
+googleAnalytics= "Your tracking code"
+
 
 
 [deployment]
