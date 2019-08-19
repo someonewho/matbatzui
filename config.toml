@@ -1,4 +1,4 @@
-baseURL = "http://isoft.cnu.ac.kr/"
+baseURL = "https://isoft.cnu.ac.kr/"
 languageCode = "en-us"
 title = "ISoft lab"
 enableRobotsTXT=true
